@@ -4,12 +4,7 @@
     box-sizing: border-box;
 }
 
-header {
-    width: 100%;
-    background-color: yellow;
-    height: 76px;
-    position: fixed;
-}
+
 
 .aside ul a{
     position: absolute;
@@ -21,7 +16,6 @@ header {
     font-size: 20px;
     color: #fff;
     border-radius: 0 15px 15px 0;
-    z-index: -1;
 }
 
 .aside a:hover{
@@ -30,10 +24,6 @@ header {
 
 li {
     list-style: none;
-}
-
-.aside a {
-    display: inline-block;
 }
 
 
@@ -102,37 +92,45 @@ li {
     background-color: black;
 }
 
+
+aside {
+    display: inline-block;
+}
+
 #lado {
     display: inline-block;
     width: 250px;
-    margin-left: 20%;
-    
+    margin-left: 15%;
+    margin-top: 55px;
 }
 
+#lado2 {
+    display: inline-block;
+    width: 250px;
+    margin-left: 20%;
+}
 
 img {
-    display: inline-block;
     width: 350px;
+    margin: 15px 0 0 40px;
     border: 10px #3CB371 solid;
     border-radius: 15px 20px;
-     
+
 }
 
 h1 {
-    width: 401px;
+    width: 400px;
     margin: 15px;
     font-size: 25px;
     font-weight: 900;
     color: #3CB371;
-    position: absolute;
-    top: 50%;
-    transform: translate(0,-50%);
 }
 
 #h1 {
+    border: 7px solid;
+    border-color: #3CB371 black;
     height: 65px;
     text-align: center;
     padding-top: 10px;
     border-radius: 20px;
-    margin-left: 30%;
 }
